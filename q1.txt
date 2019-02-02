@@ -1,0 +1,10 @@
+ctrl+alt+x to exit
+
+Open virtual machine Settings-> Network, then choose adapter1 to NAT.
+Now open Network and Sharing-Center in Windows, then go to change Adapter settings, then disable the virtual box host only adapter.
+close the window and now you should be able to use internet in ubuntu.
+
+sudo apt-get update
+
+
+sudo apt-get install gcc-multilib g++-multilib
